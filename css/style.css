@@ -1,0 +1,279 @@
+
+ body {
+ 	margin: 0px
+ }
+ header {
+	display: block;
+	height: 132px;
+	width: 1440px;
+	margin: 0 auto
+}
+#logo {
+position: absolute;
+padding-left: 170px
+}	
+ul#menu {
+	padding:0px;
+	margin: 35px 212px 0 0;
+	float: right
+}
+ul#menu li {
+display:inline;
+padding: 15px
+}
+ul#menu li a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size:14px;
+	text-decoration:none;
+	color: #314a5b;
+	text-transform:uppercase;
+	top:30px;
+	padding-right: : 210px;
+	 transition: All 0.5s ease;
+}
+ul#menu li a:hover {
+	color: black;
+}
+i.fa.fa-facebook.fa-fw {
+	color:#fa5c65;
+	font-size: 20px;
+	 transition: All 0.5s ease;
+}
+i.fa.fa-twitter.fa-fw{
+	color:#fa5c65;
+	font-size: 20px;
+	 transition: All 0.5s ease;
+}
+
+
+i.fa.fa-facebook.fa-fw:hover {
+	color:#d53a43;
+	font-size: 20px;
+}
+i.fa.fa-twitter.fa-fw:hover {
+	color:#d53a43;
+	font-size: 20px;
+}
+i.fa.fa-twitter.fa-lg,
+i.fa.fa-instagram.fa-lg,
+i.fa.fa-facebook.fa-lg,
+i.fa.fa-google-plus.fa-lg {
+	color:#babfc3;
+	font-size: 25px;
+	padding-right: 15px;
+	 transition: All 0.5s ease;
+}
+i.fa.fa-twitter.fa-lg:hover {
+	color:#a2a6aa;
+	font-size: 25px
+}
+i.fa.fa-instagram.fa-lg:hover {
+	color:#a2a6aa;
+	font-size: 25px
+}
+i.fa.fa-facebook.fa-lg:hover {
+	color:#a2a6aa;
+	font-size: 25px
+}
+i.fa.fa-google-plus.fa-lg:hover {
+	color:#a2a6aa;
+	font-size: 25px
+}
+i.fa.fa-arrow-right{
+	color:#fa5c65;
+	padding-left: 15px;
+}
+i.fa.fa-arrow-right:hover {
+	color:#d53a43
+}
+#PORTFOLIO{
+	margin : 0 AUTO;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 align-content: center;
+	}
+.block-1 {
+	background-image: url(../img/man.png); 
+	background-size: 100%;
+	background-repeat: no-repeat	
+}
+.content-1440 {
+	width: 1440px;
+	height: 1000px;
+	margin: 0 auto
+
+}
+.content-1440-2 {
+	width: 1440px;
+	margin: 0 auto;
+	padding-top: 35px
+
+}
+
+.TextTitle {
+	position: relative;
+	padding: 180px
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size:48px;
+	color: #314a5b;
+	cursor: default;
+}
+h2 {
+	font-family: 'Open+Sans', sans-serif;
+	font-size:20px;
+	color: #314a5b;
+	padding-bottom: 40px;
+	cursor: default;
+	}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size:26px;
+	color: #314a5b;
+	cursor: default;
+	margin: 0
+}
+h5 {
+	font-family: 'Montserrat', sans-serif;
+font-weight: Light;
+	font-size:40px;
+	color: #314a5b;
+	cursor: default;
+	margin: 0;
+
+
+	}
+	h6 {
+	font-family: 'Open+Sans', sans-serif;
+	font-weight: bold;
+	font-size:16px;
+	color: #314a5b;
+	cursor: default;
+	margin-top: 15px;
+	margin-bottom:35px;
+
+
+	}
+p {
+	font-family: 'Open+Sans', sans-serif;
+	font-size:15px;
+	color: #b9c0c6;;
+	cursor: default;
+}
+.pbutton {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #fa5c65;
+	cursor: pointer;
+	padding-top: 25px;
+	 transition: All 0.5s ease;
+}
+.pbutton:hover {
+	color: #d53a43;
+	}
+.pbuttonfooter {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #fa5c65;
+	cursor: pointer;
+	padding-left: 1100px;
+	padding-top: 25px;
+	 transition: All 0.5s ease;
+}
+.pbuttonfooter:hover {
+		color: #d53a43;
+	}
+	
+
+.text{
+	padding-top: 35px;
+	width: 350px;
+}
+.text2{
+
+margin-left: 750px;
+padding-top: 50px
+}
+.button {
+	width:169px;
+	text-align: center;
+	line-height: 60px;
+	background-color:#fa5c65;
+	border-radius:5px;
+	font-family: 'Open+Sans', sans-serif;
+	font-weight: bold;
+	font-size:15px;
+	color:white;
+	cursor: pointer;
+	 transition: All 0.5s ease;
+	}
+	.button:hover {
+	background-color:#d53a43;
+	 transition: All 0.5s ease;
+	 cursor: pointer;
+}
+.button.active {
+	 background-color:#d53a43;
+	 transition: All 0.3s ease;
+	 cursor: pointer;
+}
+.slider {
+	 display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+	}
+	
+.macbook {
+padding-left:190px;
+float: left;
+
+}
+.ourteam{
+	padding-left: 190px;
+}
+
+.icon {
+    margin-top: 50px;
+    width: 350px;
+    float:left;
+}
+.people{
+		width:140px;
+		float:left;
+}
+.col{
+	color: #fa5c65
+}
+
+ .col2 {
+ 	color: #b9c0c6;
+ 	FLOAT: RIGHT;
+	MARGIN-RIGHT: 200PX;
+	padding-top: 40PX
+}
+  footer {
+  	height: 130PX;
+  	padding-top: 60px;
+  		width: 1440px;
+	margin: 0 auto;
+  }
+  hr {
+    border: none; 
+    background-color:#b9c0c6; 
+    color: #b9c0c6; 
+    height: 1px;
+    MARGIN-RIGHT: 200PX;
+    MARGIN-LEFT: 200PX;
+
+   }
+.iconsf{
+	float: left;
+	padding-top: 40px;
+	padding-left: 200px;
+}
